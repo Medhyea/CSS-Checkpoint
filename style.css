@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding:0px ;
+}
+body{
+    background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+         linear-gradient(127deg, black, black 70.71%),
+         Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    padding-bottom: 100px;
+}
+.logonavbar{
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    background-color:rgba(189, 27, 27, 0.8);
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    color: white;
+    border-color: black;
+    
+}
+h3{
+    color: white;
+    border-color: black;
+    margin-top: 30px;
+    
+}
+label{
+    color: aqua;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    border-color: black;
+}
+
+.navbar{
+    background-color: rgba(255,0,0,.8);
+    display:flex;
+        justify-content:center;
+        align-items:flex-end;
+        justify-content: space-around;
+}
+
+.boutons{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+}
+
+.img1{
+    background-image: url(../res/courses/1.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.img1:hover{
+    border-radius: 20px;  
+    opacity: .7;
+}
+
+.img2{
+    background-image: url(../res/courses/2.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.img2:hover{
+    border-radius: 20px;  
+    opacity: .7;
+}
+.img3{
+    background-image: url(../res/courses/3.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.img3:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.parag{
+    color: white;
+    font-size: 60px;
+}
+
+.contactcover{
+    color: white;
+    background-image: url(../res/contact.png);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.heading{
+    font-size: 130px;
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+label{
+    font-size: 25px;
+}
+.sub{
+    height: 40px;
+    width: 70px;
+}
+.coursescover{
+    color: white;
+    background-image: url(../res/contact.png);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bout1{
+    background-image: url(../res/courses/1.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout1:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout2{
+    background-image: url(../res/courses/2.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout2:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+
+.bout3{
+    background-image: url(../res/courses/9.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout3:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout4{
+    background-image: url(../res/courses/3.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout4:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout5{
+    background-image: url(../res/courses/4.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout5:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout6:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout6{
+    background-image: url(../res/courses/5.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout7{
+    background-image: url(../res/courses/6.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout7:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout8{
+    background-image: url(../res/courses/7.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout8:hover{
+    border-radius: 20px; 
+    opacity: .7; 
+}
+.bout9{
+    background-image: url(../res/courses/8.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.bout9:hover{
+    border-radius: 20px; 
+    opacity: .7;
+     
+}
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #276873;
+	-webkit-box-shadow: 0px 1px 0px 0px #276873;
+	box-shadow: 0px 1px 0px 0px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 21px;
+	text-decoration:none;
+	text-shadow:-4px 3px 2px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.ta5 {
+	border: 2px solid #765942;
+	border-radius: 10px;
+	height: 90px;
+	width: 230px;
+}
+.inputs{
+    padding: 6px;
+    font-size: 21px;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: double;
+    border-radius: 13px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+
