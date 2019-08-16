@@ -32,7 +32,7 @@ label{
     color: aqua;
 }
 a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 a:hover{
@@ -54,37 +54,7 @@ a:hover{
    justify-content: space-around;
 }
 
-.img1{
-    background-image: url(../res/courses/1.png);
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-}
-.img1:hover{
-    border-radius: 20px;  
-    opacity: .7;
-}
 
-.img2{
-    background-image: url(../res/courses/2.png);
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-}
-.img2:hover{
-    border-radius: 20px;  
-    opacity: .7;
-}
-.img3{
-    background-image: url(../res/courses/3.png);
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-}
-.img3:hover{
-    border-radius: 20px; 
-    opacity: .7; 
-}
 .parag{
     color: white;
     font-size: 60px;
@@ -123,94 +93,94 @@ label{
     align-items: center;
 
 }
-.bout1{
+#bout1{
     background-image: url(../res/courses/1.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout1:hover{
+#bout1:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout2{
+#bout2{
     background-image: url(../res/courses/2.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout2:hover{
+#bout2:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
 
-.bout3{
+#bout3{
     background-image: url(../res/courses/9.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout3:hover{
+#bout3:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout4{
+#bout4{
     background-image: url(../res/courses/3.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout4:hover{
+#bout4:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout5{
+#bout5{
     background-image: url(../res/courses/4.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout5:hover{
+#bout5:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout6:hover{
+#bout6:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout6{
+#bout6{
     background-image: url(../res/courses/5.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout7{
+#bout7{
     background-image: url(../res/courses/6.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout7:hover{
+#bout7:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout8{
+#bout8{
     background-image: url(../res/courses/7.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout8:hover{
+#bout8:hover{
     border-radius: 20px; 
     opacity: .7; 
 }
-.bout9{
+#bout9{
     background-image: url(../res/courses/8.png);
     width: 300px;
     height: 300px;
     background-size: cover;
 }
-.bout9:hover{
+#bout9:hover{
     border-radius: 20px; 
     opacity: .7;
      
@@ -263,4 +233,11 @@ label{
     outline:none;
 }
 
+button{
+    margin-top: 140px;
+    margin-left: 120px;
+}
+.myButton{
+    margin-left: 5px;
+}
 

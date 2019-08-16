@@ -7,7 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> JS Checkpoint </title>
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title> JQuery Checkpoint </title>
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -31,52 +37,64 @@
         <br>
         <br>
         <br>
+        
+        <div id="ex1" class="modal">
+                <p>
+                    This is a go my code track.
+                    <br>
+                    Each track has its own goal.
+                    <br>
+                    By adopting this truck, you chose your own goal.
+                </p>
+                <a href="#" rel="modal:close">Close</a>
+        </div>
 
         <div class="boutons">
-            <div class="bout1">
-                <button></button>
+            <div id="bout1">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
             </div>
-            <div class="bout2">
-                    <button></button>
+            <div id="bout2">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
             </div>
-            <div class="bout3">
-                    <button></button>
+            <div id="bout3">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
             </div>
         </div>
         <br>
         <br>
         <div class="boutons">
-                <div class="bout4">
-                    <button></button>
+                <div id="bout4">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                 </div>
-                <div class="bout5">
-                        <button></button>
+                <div id="bout5">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                 </div>
-                <div class="bout6">
-                        <button></button>
+                <div id="bout6">
+                    <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                 </div>
             </div>
             <br>
             <br>
             <div class="boutons">
-                    <div class="bout7">
-                        <button></button>
+                    <div id="bout7">
+                        <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                     </div>
-                    <div class="bout8">
-                            <button></button>
+                    <div id="bout8">
+                        <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                     </div>
-                    <div class="bout9">
-                            <button></button>
+                    <div id="bout9">
+                        <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
                     </div>
                 </div>
        
        <center>
-           <br>
+           
            <h3>Feedback</h3>
 
             <button class="MyButton" onclick="bolded()" type="button" ><b>B</b></button>
             <button class="MyButton" onclick="italic()" type="button" > I </button>
             <button class="MyButton" onclick="underlined()" type="button">Underlined</button>
+            
             <select id="sz" onclick="sizing()">
                 <option value="20px">20px</option>
                 <option value="30px">30px</option>

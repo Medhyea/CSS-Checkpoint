@@ -38,3 +38,12 @@ function styling(){
     var b=document.getElementById("ta5");
     b.style.fontFamily=a.value;
 }
+
+$("a button").mouseout(function(){
+    $(this).css("opacity", "0");
+  });
+  $("a button").mouseover(function(){
+    $(this).css("opacity", "1");
+  })
+
+  

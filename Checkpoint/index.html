@@ -7,7 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> JS Checkpoint </title>
+    <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title> JQuery Checkpoint </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -36,26 +42,36 @@
     </center>
     <br>
     <br>
-<center>
-    <div class="boutons">
-        <div class="img1">
-            <button>
-                    <a href="courses.html"> View More </a>
-            </button>
-        </div>
-        <div>
-            <button class="img2">
-                    <a href="courses.html">  View More </a>    
-            </button>
-        </div>
-        <div>
-            <button class="img3">  
-                    <a href="courses.html"> View More </a>
-            </button>
-        </div>
+
+    <div id="ex1" class="modal">
+            <p>
+                This is a go my code track.
+                <br>
+                Each track has its own goal.
+                <br>
+                By adopting this truck, you chose your own goal.
+            </p>
+            <a href="#" rel="modal:close">Close</a>
     </div>
+    
+<center>
+        <div class="boutons">
+
+                <div id="bout1">
+                      <p><a href="#ex1" rel="modal:open">  <button> View More </button></a></p>
+                </div>
+                <div id="bout2">
+                        <a href="#ex1" rel="modal:open"> <button> View More </button></a>
+                </div>
+                <div id="bout3">
+                        <a href="#ex1" rel="modal:open"> <button> View More </button></a>
+                </div>
+        </div>
 </center>
 <br>
+<center>
+        <a href="courses.html"> View More ... </a>
+</center>
 <br>
 <hr>
 <br>
